@@ -5,9 +5,88 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MP1</title>
+        <script src="https://kit.fontawesome.com/e5d2c00a04.js" crossorigin="anonymous"></script>
     </head>
+
     <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
+        <header>
+            <nav class="navbar" id="navbar">
+                <a href="#intro">intro</a>
+                <a href="#blog">blog</a>
+                <a href="#photos">photos</a>
+                <a href="#surprise">surprise</a>
+                <a href="#video">video</a>
+
+
+            </nav>
+        </header>
+        <div id="intro" class="scrolly-img">
+            <h1>hi! welcome to my mp1!</h1>
+        </div>
+
+        <div class="entries" id="blog">
+            <div class="note">
+                <p> lorem ipsum dolor sit amet consectetur adipiscing elit duis temporibus corrupti tempore blanditiis dolore pariatur sunt nobis in aliquip qui est culpa in et eum quibusdam temporibus qui eos et voluptate optio sunt eiusmod excepteur excepturi sint eos consectetur eligendi et harum nihil ex ut dolorem atque sint consequat odio </p>
+            </div>
+            <div class="note">
+                <p> lorem ipsum dolor sit amet consectetur adipiscing elit duis temporibus corrupti tempore blanditiis dolore pariatur sunt nobis in aliquip qui est culpa in et eum quibusdam temporibus qui eos et voluptate optio sunt eiusmod excepteur excepturi sint eos consectetur eligendi et harum nihil ex ut dolorem atque sint consequat odio </p>
+            </div>
+            <div class="note">
+                <p>hi</p>
+            </div>
+        </div>
+
+
+        
+        <section id="photos">
+            <h2>see snoopy pictures</h2>
+            <div class="slides-container">
+                <button id="previous" aria-label="Previous image">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                </button>
+
+                <div class="carousel-container">
+                    <img class="carousel" src="https://i.pinimg.com/1200x/60/aa/7b/60aa7b0f169321689ff33e7bbdc0beb5.jpg" alt="Photo 1">
+                    <img class="carousel" src="https://i.pinimg.com/736x/a8/60/2e/a8602ef668572592b20a04963e963aaf.jpg" alt="Photo 2">
+                    <img class="carousel" src="https://i.pinimg.com/736x/86/93/24/8693242a3c18e018a6f83c8b1bdc3c01.jpg" alt="Photo 3">
+                </div>
+
+                <button id="next" aria-label="Next image">
+                <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </section>
+
+        <div id="surprise">
+            <h2> do you want to see a surprise snoopy!</h2>
+            <button id="openModal"> click me</button>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <img class="modal-img" src="https://i.pinimg.com/736x/27/b3/e2/27b3e23069ca0a674197845d5cfb6e8a.jpg" alt="Snoopy standing with arms crossed looking mad">
+                </div>
+                <button id="closeModal">close</button>
+            </div>
+        </div>
+
+        <section id="video">
+            <video autoplay loop muted playsinline autoplay>
+            <source src="assets/snoopy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <p>snoopy represents me working on this mp</p>
+        </section>
+
+        <footer>
+            <p>See my other work on Github </i>
+            <p><a href="https://github.com/jasmithagarre" target="_blank"> <i class="fa-brands fa-github"> </i>https://github.com/jasmithagarre</a></p>
+            <p>© 2026 Jasmitha Garre</p>
+        </footer>
+
     </body>
+
+
 </html>
+
+<script src="js/main.js"></script>
+
+
